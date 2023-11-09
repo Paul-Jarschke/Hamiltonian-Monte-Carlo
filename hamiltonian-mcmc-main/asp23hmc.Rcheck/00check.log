@@ -1,0 +1,174 @@
+* using log directory 'C:/Users/Paul/Desktop/asp23hmc/asp23hmc/asp23hmc.Rcheck'
+* using R version 4.2.3 (2023-03-15 ucrt)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: UTF-8
+* using options '--no-manual --as-cran'
+* checking for file 'asp23hmc/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'asp23hmc' version '0.1.0'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'asp23hmc' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Nicht-Standard Lizenzspezifikation:
+  What license is it under?
+Zu standardisieren: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... WARNING
+plot:
+  function(x, ...)
+plot.hmc:
+  function(m, predictor, type, exclude_warmup)
+
+See section 'Generic functions and methods' in the 'Writing R
+Extensions' manual.
+
+Found the following apparent S3 methods exported but not registered:
+  coef.hmc deviance.hmc fitted.hmc logLik.hmc plot.hmc predict.hmc
+  print.hmc qqnorm.hmc residuals.hmc simulate.hmc summary.hmc vcov.hmc
+See section 'Registering S3 methods' in the 'Writing R Extensions'
+manual.
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+HMC_Dual_Averaging: no visible global function definition for 'rnorm'
+HMC_Dual_Averaging: no visible global function definition for 'runif'
+U: no visible global function definition for 'dnorm'
+coefmat_samples : <anonymous>: no visible global function definition
+  for 'quantile'
+deviance.hmc: no visible global function definition for 'resid'
+dmvnorm: no visible global function definition for 'dnorm'
+hmc: no visible global function definition for 'head'
+hmc: no visible global function definition for 'tail'
+hmc: no visible global function definition for 'cli_progress_bar'
+hmc: no visible global function definition for 'cli_progress_update'
+hmc: no visible global function definition for 'cli_progress_done'
+info_beta: no visible global function definition for 'fitted'
+logLik.hmc: no visible global function definition for 'nobs'
+loglik: no visible global function definition for 'dnorm'
+neg_loglik: no visible global function definition for 'fitted'
+neg_loglik: no visible global function definition for 'dnorm'
+plot.hmc: no visible global function definition for 'coef'
+plot.hmc: no visible binding for global variable 'output'
+plot.hmc: no visible global function definition for 'par'
+plot_acf: no visible global function definition for 'acf'
+plot_density: no visible global function definition for 'density'
+plot_density: no visible global function definition for 'abline'
+plot_hist: no visible global function definition for 'hist'
+plot_roll_mean: no visible global function definition for 'matplot'
+plot_roll_mean: no visible global function definition for 'abline'
+plot_roll_mean: no visible global function definition for 'legend'
+plot_trace: no visible global function definition for 'abline'
+plot_trace: no visible global function definition for 'legend'
+predict.hmc : <anonymous>: no visible global function definition for
+  'predict'
+predict.hmc: no visible global function definition for 'update'
+predict.hmc: no visible global function definition for 'as.formula'
+predict.hmc: no visible global function definition for 'model.matrix'
+predict.hmc: no visible global function definition for 'coef'
+print.hmc: no visible global function definition for 'coef'
+qqnorm.hmc: no visible global function definition for 'qqnorm'
+qqnorm.hmc: no visible global function definition for 'resid'
+qqnorm.hmc: no visible global function definition for 'qqline'
+rmvnorm: no visible global function definition for 'rnorm'
+score_beta: no visible global function definition for 'resid'
+score_beta: no visible global function definition for 'fitted'
+score_gamma: no visible global function definition for 'resid'
+set_beta: no visible global function definition for 'fitted'
+setup: no visible global function definition for 'update'
+setup: no visible global function definition for 'model.matrix'
+simulate.hmc: no visible global function definition for 'runif'
+simulate.hmc: no visible global function definition for 'nobs'
+simulate.hmc: no visible global function definition for 'rnorm'
+summary.hmc: no visible global function definition for 'printCoefmat'
+summary.hmc: no visible global function definition for 'df.residual'
+summary.hmc: no visible global function definition for 'AIC'
+summary.hmc: no visible global function definition for 'BIC'
+tidy.hmc : <anonymous>: no visible global function definition for
+  'tidy'
+tidy.hmc: no visible binding for global variable 'm'
+tidy.hmc: no visible binding for global variable 'quantile'
+update_beta: no visible global function definition for 'rnorm'
+update_beta: no visible global function definition for 'runif'
+update_gamma: no visible global function definition for 'rnorm'
+update_gamma: no visible global function definition for 'runif'
+Undefined global functions or variables:
+  AIC BIC abline acf as.formula cli_progress_bar cli_progress_done
+  cli_progress_update coef density df.residual dnorm fitted head hist
+  legend m matplot model.matrix nobs output par predict printCoefmat
+  qqline qqnorm quantile resid rnorm runif tail tidy update
+Consider adding
+  importFrom("graphics", "abline", "hist", "legend", "matplot", "par")
+  importFrom("stats", "AIC", "BIC", "acf", "as.formula", "coef",
+             "density", "df.residual", "dnorm", "fitted", "model.matrix",
+             "nobs", "predict", "printCoefmat", "qqline", "qqnorm",
+             "quantile", "resid", "rnorm", "runif", "update")
+  importFrom("utils", "head", "tail")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undokumentierte Code-Objekte:
+  'HMC_Dual_Averaging' 'K' 'ML_estimates' 'U' 'acceptance_ratios.hmc'
+  'calculate_delta' 'chol_info' 'chol_info_funs' 'coef.hmc' 'coefmat'
+  'coefmat_samples' 'deviance.hmc' 'dmvnorm' 'find_reasonable_epsilon'
+  'fitted.hmc' 'grad_K' 'grad_U' 'grad_U_beta' 'grad_U_gamma' 'hmc'
+  'hyperparameter_df' 'info_beta' 'info_gamma' 'joint_log_density'
+  'leapfrog' 'leapfrog_single_step' 'logLik.hmc' 'loglik' 'neg_loglik'
+  'plot.hmc' 'plot_acf' 'plot_density' 'plot_hist' 'plot_roll_mean'
+  'plot_trace' 'predict.hmc' 'print.hmc' 'qqnorm.hmc' 'residuals.hmc'
+  'rmvnorm' 'score' 'score_beta' 'score_funs' 'score_gamma' 'set_beta'
+  'set_coef' 'set_coef_funs' 'set_gamma' 'setup' 'simulate.hmc'
+  'summary.hmc' 'tidy.hmc' 'update_beta' 'update_gamma' 'vcov.hmc'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... WARNING
+Funktionen bzw. Methoden mit Anleitung im Dokumentations-Objekt 'hello' jedoch nicht im Code
+  'hello'
+
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... ERROR
+Running examples in 'asp23hmc-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: hello
+> ### Title: Hello, World!
+> ### Aliases: hello
+> 
+> ### ** Examples
+> 
+> hello()
+Error in hello() : could not find function "hello"
+Execution halted
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 1 ERROR, 3 WARNINGs, 2 NOTEs

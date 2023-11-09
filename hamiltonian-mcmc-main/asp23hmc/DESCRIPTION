@@ -1,0 +1,13 @@
+Package: asp23hmc
+Type: Package
+Title: Hamiltonian Monte Carlo
+Version: 0.1.0
+Author: Sönke Hänel, Jan Parlesak, Paul Jarschke
+Maintainer: Paul Jarschke <paul.jarschke@stud.uni-goettingen.de>
+Description: Statistical inference using Hamiltonian MCMC with flat priors for location-scale regression. The package is inspireed by the lmls package.
+Depends: lmls, gamlss.data, cli
+License: No current license
+URL: https://gitlab.gwdg.de/paul.jarschke/hamiltonian-mcmc.git
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
